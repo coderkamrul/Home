@@ -106,6 +106,9 @@ function Home() {
                 {window.location.pathname == "/Home" && 
                 <UserHome />
                 }
+                {window.location.pathname == "/Home/" && 
+                <UserHome />
+                }
                 {window.location.pathname == "/Home/home" && 
                 <UserHome />
                 }
