@@ -1,0 +1,84 @@
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accountImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.accountName{
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.top-left {
+    position: absolute;
+    display: flex;
+    left: 0;
+    align-items: center;
+}
+
+img.facebookIcon {
+    width: 35px;
+    margin: 0px 15px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+}
+
+img.centerIcon {
+    width: 25px;
+    display: flex;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+span.groupCurcle {
+    border: 1px solid rgb(19, 18, 18);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+}
+
+img.centerIcon:nth-child(2){
+    width: 30px;
+}
+span.groupCurcle img {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 20px;
+}
+
+input.facebookSearch {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    background: #f0f2f5;
+    color: black;
+    font-size: 15px;
+    outline: none;
+    width: 230px;
+}
+
+img.searchIcon {
+    position: absolute;
+    top: 7px;
+    left: 72px;
+    width: 23px;
+}
+
+span.icon-button.user-icon svg {
+    width: 30px;
+    height: 30px;
+}

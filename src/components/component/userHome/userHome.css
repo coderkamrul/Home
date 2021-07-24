@@ -1,0 +1,168 @@
+.userHomeWrapper {
+    width: 31%;
+    padding: 13px;
+    margin-right: -80px;
+    margin-left: -70px;
+    margin-top: 4px;
+}
+.userHome{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 13px;
+    border-radius: 10px;
+    border: var(--border);
+    margin-bottom: 12px;
+}
+.userHomeSec1Top {
+    display: flex;
+    justify-content: space-between;
+}
+
+span.userHomeSec1Toptag {
+    font-size: 18px;
+    font-weight: 600;
+}
+span.userHomeSec1Toptag2 {
+    color: #1977f3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.userHomeSec1Top1Bottom {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+img.userHomeSec1MidleleftImg {
+    width: 20px;
+}
+
+img.userHomeSec1MidleRightImg {
+    width: 20px;
+}
+
+
+span.userHomeSec1BottomIconBg img {
+    width: 20px;
+}
+
+.userHomeSec1Midleleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userHomeSec1Midleleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    border-radius: 6px;
+    border: var(--border);
+    box-shadow: 0px 4px 8px -5px grey;
+}
+.userHomeSec1MidleRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    border-radius: 6px;
+    border: var(--border);
+    box-shadow: 0px 4px 8px -5px grey;
+    height: 153px;
+}
+
+.userHomeSec1Midl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #a5a5a578;
+    padding-bottom: 15px;
+}
+span.leftimgBack {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: gainsboro;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+span.userHomeSec1MidleleftDec {
+    text-align: center;
+    font-size: 13px;
+    color: #494949;
+    margin-bottom: 6px;
+}
+
+span.userHomeSec1MidleleftTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+span.rightimgBack {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+span.userHomeSec1MidleRightTitle {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.userHomeSec1Bottom {
+    display: flex;
+    margin-top: 8px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+}
+.userHomeSec1Bottom:hover {
+    background: #dcdcdc87;
+}
+
+span.userHomeSec1BottomIconBg {
+    width: 69px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+span.userHomeSec1BottomIconBg img {
+    width: 23px;
+}
+.userHomeSec1BottomDetailWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+span.userHomeSec1BDec {
+    font-size: 13px;
+}
+
+img.userHomeSec1BottomArrow {
+    width: 16px;
+}
+
+.userHomeSec1Bottomdetail {
+    display: flex;
+}

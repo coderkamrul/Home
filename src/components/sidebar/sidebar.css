@@ -1,0 +1,136 @@
+ul.sidebarList::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+
+
+::-webkit-scrollbar-thumb {
+    background: #cdcccc;
+    border-radius: 50px;
+    display: none;
+    transition: all 0.3s ease;
+}
+::-webkit-scrollbar-track:hover {
+    background: #f1f1f1;
+}
+
+ul.sidebarList:hover::-webkit-scrollbar-thumb {
+    display: block;
+    transition: all 0.3s ease;
+}
+
+
+.sidebar {
+    flex: 4 1;
+    background-color: #ffffff;
+    border-right: var(--border);
+    height: calc(99vh - 60px);
+    position: sticky;
+    top: 61px;
+    z-index: 999;
+}
+
+.sidebarWrapper {
+    padding: 0px 8px;
+    margin-top: -10px;
+    padding-right: 3px;
+}
+
+.mainTitle{
+    padding-bottom: 8px;
+    border-bottom: var(--border);
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+h2.mainTitle.ulTitle {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+li.sidebarItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    font-weight: 500;
+}
+
+li.sidebarItem:hover {
+    background: #e9f3ff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+li.sidebarItem:hover .sidebarIcons{
+    /* background-color: #1776f2; */
+    transition: all 0.2s ease;
+}
+
+/* li.sidebarItem:hover .sidebarIcons img{
+    filter: invert();
+} */
+
+.sidebarIcons {
+    width: 35px;
+    height: 35px;
+    background: #e5e6eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+img.sidebarImg {
+    width: 25px;
+}
+
+img.sidebarImgs {
+    width: 20px;
+}
+
+ul.sidebarList {
+    border-bottom: var(--border);
+    padding-bottom: 5px;
+    overflow: scroll;
+    max-height: 75vh;
+    overflow-x: hidden;
+}
+
+button.sidebarBtn {
+    width: 95%;
+    margin: 5px 8px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    background: #1977f3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.sidebarBtn img {
+    filter: invert(1);
+    margin-right: 8px;
+    width: 16px;
+}
+
+.active{
+    background-color: #e9f3ff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.active .sidebarIcons img {
+    filter: invert();
+}
+
+.active .sidebarIcons{
+    background-color: #1776f2;
+    transition: all 0.2s ease;
+}

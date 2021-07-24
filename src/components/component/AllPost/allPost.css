@@ -1,0 +1,235 @@
+.allPost {
+    width: 109%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 18px;
+    box-shadow: 0px 4px 8px -8px grey;
+}
+.allPostItemWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 6px;
+    padding-bottom: 0px;
+}
+
+.allPostTop img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.allPostTop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+img.moreIcon {
+    width: 20px;
+    height: 20px;
+}
+img.helpIcon,
+img.publicIcon {
+    width: 13px;
+    height: 13px;
+    filter: contrast(0.5);
+}
+.postOwner {
+    display: flex;
+    align-items: center;
+}
+.spanWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+span.ownerName {
+    font-size: 17px;
+    font-weight: 500;
+    color: #242424;
+}
+span.ownerName:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+span.postTime {
+    font-size: 13px;
+    color: #5b5b5b;
+}
+
+.haspostText {
+    padding: 10px 16px;
+    padding-top: 0;
+}
+
+img.haspostImage {
+    width: 100%;
+}
+
+.postReach {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    align-items: center;
+    border-bottom: 1px solid #a5a5a5b8;
+}
+
+.peopleReached,
+.Engagement,
+.DistScore {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+button.postBoostBtn {
+    padding: 10px;
+    background: #1977f3;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button.postBoostBtn:hover {
+    background: #176ee1;
+}
+
+.likeCommentS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 16px;
+    padding: 10px 6px;
+    border-bottom: 1px solid #c0c0c0a3;
+}
+
+.commShare {
+    display: flex;
+    width: 250px;
+    justify-content: flex-end;
+}
+.allPosticons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    margin: 0px 16px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.likeIcon img,
+.commentIcon img,
+.shareIcon img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.likeIcon,
+.commentIcon,
+.shareIcon {
+    cursor: pointer;
+    padding: 7px 48px;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+}
+img{
+    cursor: pointer;
+}
+.likeIcon:hover,
+.commentIcon:hover,
+.shareIcon:hover {
+    background: #e5e6eb;
+}
+
+.forComment img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.forComment {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.commentInput {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.commentInput input {
+    padding: 8px 12px;
+    width: 100%;
+    border: var(--border);
+    outline: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    background: #e5e6eb;
+    font-size: 15px;
+    padding-right: 116px;
+}
+
+.forCommentsIcons {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.forCommentsIcons img {
+    width: 26px;
+    height: 25px;
+    cursor: pointer;
+}
+span.postLastText {
+    font-size: 13px;
+    position: relative;
+    top: -12px;
+    left: 62px;
+}
+.comment {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.comment:hover {
+    text-decoration: underline;
+}
+.like:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.share {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.share:hover {
+    text-decoration: underline;
+}
+.imgHover {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.imgHover:hover {
+    background: #e5e6eb;
+}
+
+span.postTime span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
